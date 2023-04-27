@@ -14,7 +14,7 @@
 </p>
 
 <p>
-  <a aria-label="Follow @Crusify on Twitter" href="https://twitter.com/intent/follow?screen_name=crusify" target="_blank">
+  <a aria-label="Follow @Crusify on Twitter" href="https://twitter.com/intent/follow?screen_name=crusifyApp" target="_blank">
     <img  alt="Twitter: crusify" src="https://img.shields.io/twitter/follow/crusify.svg?style=flat-square&label=Follow%20%40crusify&logo=TWITTER&logoColor=FFFFFF&labelColor=00aced&logoWidth=15&color=lightgray" target="_blank" />
   </a>
   <a aria-label="Follow crusify on our site" href="https://https://www.badblli.dev/posts">
