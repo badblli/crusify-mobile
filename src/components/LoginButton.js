@@ -1,10 +1,10 @@
 import React from "react";
 import { TouchableOpacity, Text, StyleSheet } from "react-native";
 
-const LoginButton = ({ onPress }) => {
+const LoginButton = ({ onPress, text }) => {
   return (
     <TouchableOpacity style={styles.button} onPress={onPress}>
-      <Text style={styles.buttonText}>Login </Text>
+      <Text style={styles.buttonText}>{text}</Text>
     </TouchableOpacity>
   );
 };
@@ -19,8 +19,7 @@ const styles = StyleSheet.create({
     borderStyle: "solid 1px",
     width: 300,
     height: 49,
-    boxShadow: "0px 5px 0px #0A8828",
-    dropShadow: "0px 20px 0px red",
+
     alignItems: "center",
     justifyContent: "center",
   },

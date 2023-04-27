@@ -2,7 +2,7 @@ import React from "react";
 import { TouchableOpacity, Text, StyleSheet, View } from "react-native";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 
-const SpotifyButton = ({ onPress }) => {
+const SpotifyButton = ({ onPress, text }) => {
   return (
     <TouchableOpacity style={styles.button} onPress={onPress}>
       <View style={styles.btnContainer}>
@@ -12,7 +12,7 @@ const SpotifyButton = ({ onPress }) => {
           color="#fff"
           style={styles.icon}
         />
-        <Text style={styles.buttonText}>Connect with Spotify </Text>
+        <Text style={styles.buttonText}>{text}</Text>
       </View>
     </TouchableOpacity>
   );
